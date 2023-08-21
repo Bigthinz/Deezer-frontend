@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "jsx": "preserve",
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/components/*": ["./components/*"],
+      "@/pages/*": ["./pages/*"],
+      "@/features/*": ["./features/*"],
+      "@/contexts/*": ["./contexts/*"],
+      "@/routes/*": ["./routes/*"]
+    }
+  },
+  "exclude": ["node_modules", "build"],
+  "include": ["vite.config.ts"]
+}
